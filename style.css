@@ -1,0 +1,25 @@
+/* Hero Section */
+.hero-section {
+    background: url('/nature.jpg') no-repeat center center;
+    background-size: cover;
+    height: 70vh;
+    color: #fff;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Responsive fix for small devices */
+  @media (max-width: 768px) {
+    .hero-section {
+      height: 50vh;
+    }
+  
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .destination-img {
+    height: 300px;         
+    object-fit: cover;    
+  }
+  
